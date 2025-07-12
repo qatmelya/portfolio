@@ -1,0 +1,67 @@
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.primary-bg {
+  background-color: #2a1458;
+}
+
+.secondary-bg {
+  background-color: #9b177e;
+}
+
+.primary-text {
+  color: #e8988a;
+}
+
+.secondary-text {
+  color: #ffead8;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+#skills {
+  max-height: 8rem;
+}
+
+#skills > .logo {
+  height: 4rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 30%;
+}
+
+.nav-button {
+  margin-top: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
